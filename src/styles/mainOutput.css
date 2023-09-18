@@ -1,0 +1,73 @@
+.article2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+
+  gap: 30px;
+}
+.section2,
+.section3 {
+  width: 400px;
+  margin-bottom: 20px;
+}
+.card2,
+.card3 {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid black;
+  height: auto;
+  padding: 10px;
+}
+.card2 > header,
+.card3 > header {
+  width: 100%;
+  text-align: center;
+}
+.card2 > header > h1,
+.card3 > header > h1 {
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.listFinish,
+.ListNotYetReading {
+  width: 100%;
+  list-style: none;
+}
+.BookFinish,
+.BookNotFinish {
+  padding: 5px 10px;
+  border-bottom: 1px solid black;
+}
+.titleBook,
+.authorBook,
+.yearBook {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1em;
+  font-weight: 500;
+  margin: 7px 0;
+}
+.nameTitle,
+.nameAuthor,
+.NameYear {
+  text-align: end;
+}
+.optionBook {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+.optionBook > button {
+  width: 45%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.optionBook > button:hover {
+  cursor: pointer;
+}

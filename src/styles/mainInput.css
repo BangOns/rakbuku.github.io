@@ -1,0 +1,139 @@
+.mainContainer {
+  width: 100%;
+  height: auto;
+}
+.article1 {
+  width: 100%;
+  height: 370px;
+}
+
+.section1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card1 {
+  width: 650px;
+  height: 100%;
+  border: 1px solid black;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 0 10px;
+}
+.card1 > header {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 1em;
+}
+.card1 > header > h1 {
+  font-size: 2em;
+  font-weight: 600;
+}
+.card1 > article {
+  width: 100%;
+  height: 81%;
+}
+.card1 > article > form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.FormTitle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0 5px;
+}
+.FormTitle > label {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.FormTitle > input {
+  border-radius: 10px;
+  border: 0;
+  height: 30px;
+  padding: 0 5px;
+  font-weight: 600;
+}
+.FormAuthor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0 5px;
+}
+.FormAuthor > label {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.FormAuthor > input {
+  border-radius: 10px;
+  border: 0;
+  height: 30px;
+  padding: 0 5px;
+  font-weight: 600;
+}
+.FormYear {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0 5px;
+}
+.FormYear > label {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.FormYear > input {
+  border-radius: 10px;
+  border: 0;
+  height: 30px;
+  padding: 0 5px;
+  font-weight: 600;
+}
+.FormCheck {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.FormCheck > label {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.FormCheck > input {
+  margin-top: 5px;
+  width: 1.4em;
+  height: 1.4em;
+}
+.FormButton {
+  width: 100%;
+  height: auto;
+}
+.FormButton > button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid rgb(75, 74, 74);
+  font-size: 1.3em;
+  font-weight: 700;
+}
+.FormButton > button:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 700px) {
+  .card1 {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .card1 {
+    max-width: 320px;
+  }
+}

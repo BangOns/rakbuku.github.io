@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles/header.css" />
+    <link rel="stylesheet" href="src/styles/mainInput.css" />
+    <link rel="stylesheet" href="src/styles/mainOutput.css" />
+    <link rel="stylesheet" href="src/styles/styleGlobal.css" />
+    <title>Codeons Library</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Codeons Library</h1>
+    </header>
+    <main class="mainContainer">
+      <article class="article1">
+        <section class="section1">
+          <div class="card1">
+            <header>
+              <h1>New Book</h1>
+            </header>
+            <article>
+              <form class="FormBookLibrary">
+                <div class="FormTitle">
+                  <label for="title">Title</label>
+                  <input type="text" id="title" required />
+                </div>
+                <div class="FormAuthor">
+                  <label for="author">Author</label>
+                  <input type="text" id="author" />
+                </div>
+                <div class="FormYear">
+                  <label for="year">Year</label>
+                  <input type="number" id="year" required />
+                </div>
+                <div class="FormCheck">
+                  <label for="read">finished reading</label>
+                  <input type="checkbox" id="read" />
+                </div>
+                <div class="FormButton">
+                  <button type="submit">Submit</button>
+                </div>
+              </form>
+            </article>
+          </div>
+        </section>
+      </article>
+      <article class="article2">
+        <section class="section2">
+          <div class="card2">
+            <header>
+              <h1>Finished Reading</h1>
+            </header>
+            <ul class="listFinish">
+              <!-- <li class="BookFinish">
+                <div class="titleBook">
+                  <p>Title</p>
+                  <span>:</span>
+                  <p class="nameTitle">Name title</p>
+                </div>
+                <div class="authorBook">
+                  <p>Author</p>
+                  <span>:</span>
+                  <p class="nameAuthor">Name Author</p>
+                </div>
+                <div class="yearBook">
+                  <p>Years</p>
+                  <span>:</span>
+                  <p class="nameYear">Name Year</p>
+                </div>
+                <div class="optionBook">
+                  <button type="button" class="notyetButton">
+                    NotYet Finish
+                  </button>
+                  <button type="button" class="removeButton">Remove</button>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+        </section>
+        <section class="section3">
+          <div class="card3">
+            <header>
+              <h1>Not Yet Reading</h1>
+            </header>
+            <ul class="ListNotYetReading">
+              <!-- <li class="BookNotFinish">
+                <div class="titleBook">
+                  <p>Title</p>
+                  <span>:</span>
+                  <p class="nameTitle">Name title</p>
+                </div>
+                <div class="authorBook">
+                  <p>Author</p>
+                  <span>:</span>
+                  <p class="nameAuthor">Name Author</p>
+                </div>
+                <div class="yearBook">
+                  <p>Years</p>
+                  <span>:</span>
+                  <p class="nameYear">Name Year</p>
+                </div>
+                <div class="optionBook">
+                  <button type="button" class="FinishButton">
+                    Reading done
+                  </button>
+                  <button type="button" class="removeButton">Remove</button>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
+    <script type="module" src="./src/script/index.js"></script>
+    <script type="module" src="./src/script/scriptFunction.js"></script>
+  </body>
+</html>
